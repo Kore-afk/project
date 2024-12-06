@@ -11,8 +11,8 @@ interface AnatomyViewerProps {
 const modelPaths: { [key: string]: string } = {
   skeletal: '/elflaco.gltf',
   cardiovascular: '/corazon.gltf',
-  digestive: '../digestivo.gltf',
-  nervous: '../brain.gltf'
+  digestive: '/Dig.gltf',
+  nervous: '/Brain.gltf'
 };
 
 function AnatomyViewer({ system, onPartSelect, selectedPart }: AnatomyViewerProps) {
